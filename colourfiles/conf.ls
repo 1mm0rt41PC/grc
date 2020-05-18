@@ -70,3 +70,7 @@ colours=unchanged,bold green,bold yellow, bold red
 # ACL
 regexp=^\S{10}(\+)
 colours=unchanged,on_cyan bold white
+-
+# Folder
+regexp=([^\t ]+/)$
+colours=blue bold
