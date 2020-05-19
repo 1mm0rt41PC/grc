@@ -74,3 +74,19 @@ colours=unchanged,on_cyan bold white
 # Folder
 regexp=([^\t ]+/)$
 colours=blue bold
+-
+# Folder bis
+regexp=^([\t ]*[0-9]*[\t ]*dr.* [0-9]+:[0-9]+[\t ]+)(.+)$
+colours=unchanged, unchanged, blue bold
+-
+# Executable
+regexp=^[\t ]*[0-9]*[\t ]*-r(w|-)xr(w|-)xr(w|-)x .* [0-9]+:[0-9]+[\t ]+(.+)$
+colours=unchanged, unchanged, unchanged, unchanged, green bold
+-
+# File with chmod 777
+regexp=^[\t ]*[0-9]*[\t ]*-rwx.?rwx.?rwx.? .* [0-9]+:[0-9]+[\t ]+(.+)$
+colours=unchanged, white bold on_green
+-
+# Folder with chmod 777
+regexp=^[\t ]*[0-9]*[\t ]*drwx.?rwx.?rwx.? .* [0-9]+:[0-9]+[\t ]+(.+)$
+colours=unchanged, white bold on_blue
